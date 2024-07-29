@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: myFont;
+    color: rgba(33, 36, 61, 1);
+}
+
+@font-face {
+    font-family: "myFont";
+    src: url("Heebo-Regular.ttf");
+}
+
+
+
+#fontChanging {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+    #fontChanging {
+        font-size: 18px;
+    }
+
+}
+
+
+.fontChanging2 {
+    font-size: 26px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .fontChanging2 {
+        font-size: 22px;
+    }
+
+}
+
+
+.fontChanging3 {
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .fontChanging3 {
+        font-size: 16px;
+    }
+
+}
+
+
+.fontChanging4 {
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .fontChanging4 {
+        font-size: 24px;
+    }
+
+}
+
+
+.fontChanging5 {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .fontChanging5 {
+        font-size: 16px;
+    }
+
+}
